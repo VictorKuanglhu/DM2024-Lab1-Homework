@@ -1,6 +1,7 @@
 """ Utility function for doing analysis on emotion datasets """
 from collections import Counter, OrderedDict
-import plotly.plotly as py
+# import plotly.plotly as py # plotly.plotly module is deprecated
+import chart_studio.plotly as py  # replace plotly.plotly with chart_studio.plotly
 import plotly.graph_objs as go
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
